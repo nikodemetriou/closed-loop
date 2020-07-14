@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif
+}
+
+header {
+  width: 100%;
+  box-shadow: 0px 6px 15px -5px rgba(0,0,0,0.75);
+  display: flex;
+  justify-content: space-between;
+}
+
+header > img {
+  max-width: 15%;
+}
+
+.section-1 {
+  background-color: rgb(247, 247, 247);
+  height: 35vh;
+  color: rgb(68, 68, 68);
+  text-align: center;
+  padding-top: 6%;
+}
+
+.section-1 > h3 {
+  font-size: 1.7em;
+}
+
+.p-section-1 {
+  box-shadow: 0 2px 4px 0 rgba(14, 30, 37, 0.12);
+  background-color: #F8C319;
+  color: #fff;
+  border: none;
+  font-size: 1.1em;
+  margin: 0px;
+  padding: 0.75em 1.8em;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+section > div {
+  height: 50vh;
+  /* border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 20%; */
+  border: 1px solid red;
+}
+
+.test-white {
+  background-color: #fff;
+  height: 50vh;
+}
+
+.test-blue {
+  background-color: #217CBA;
+  height: 50vh;
+}
+
+
+/*********     DROPDOWN     **********/
+
+.nav {
+  font-size: 18px;
+  font-family: 'Lato';
+  font-weight: 700;
+  background: #3D8BCC;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  display: inline-block;
+  position: relative;
+}
+
+.nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 18px;
+  display: block;
+}
+
+.nav ul li a:hover {
+  background-color: #F8C319;
+  height: 3.8vh;
+  text-shadow: 1px 0px 3px rgba(150, 150, 150, 1);
+}
+
+.sub_menu {
+  position: absolute;
+  background-color: #3E7EB2;
+  width: 200px;
+}
+
+ul.sub_menu {
+  display: none;
+}
+
+ul.sub_menu li{
+  display: block;
+}
+
+.nav ul li:hover ul.sub_menu {
+  display: block;
+}
