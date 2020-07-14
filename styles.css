@@ -87,7 +87,6 @@ section > div {
 .nav ul li a:hover {
   background-color: #F8C319;
   height: 3.8vh;
-  text-shadow: 1px 0px 3px rgba(150, 150, 150, 1);
 }
 
 .sub_menu {
